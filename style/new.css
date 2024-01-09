@@ -193,55 +193,116 @@
 }
 
 .right-img-sec-4 {
-    margin-top: 48px;
-
+  margin-top: 48px;
 }
 
 .section5 {
+  display: flex;
+  flex-direction: column;
+  width: 1320px;
+  height: 1100px;
+  margin: 0px auto;
+  margin-top: 120px;
+  & .part-01-section-5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color_02);
+    margin-bottom: 10px;
+  }
+  & .part-02-section-5 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--color_03);
+    margin-bottom: 15px;
+  }
+  & .part-03-section-5 {
+    width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color_03);
+    margin-bottom: 30px;
+  }
 
-    width: 1320px;
-    height: 600px;
-    margin: 120px auto;
-    & .part-01-section-5 {
-        font-size: 24px;
-        font-weight: 500;
-        color: var(--color_02);
-        margin-bottom: 10px;
-    }
-    & .part-02-section-5 {
-        font-size: 48px;
-        font-weight: 900;
-        color: var(--color_03); 
-        margin-bottom: 15px;
-    }
-    & .part-03-section-5 {
-        width: 70%;
-        font-size: 20px;
-        font-weight: 400;
-        color: var(--color_03); 
-        margin-bottom: 30px;
-    }
-    & .part-04-section-5 {
-        display: grid;
-        grid-template-columns: repeat(3, 424px);
-        grid-template-rows: repeat(3, 450px);
-        gap: 24px;
-        transition: 1s;
-    }
+  & .part-04-section-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-template-rows: repeat(3, 420px);
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    transition: 1s;
+  }
 
-    & .part-04-section-5 img {
-        width: 404px;
-        height: 430px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 1s;
-    }
+  & .part-04-section-5 img {
+    width: 400px;
+    height: 400px;
+    transition: 1s;
+  }
 
-    & .part-04-section-5 img:hover {
-        width: 90%;
-        height: 90%;
-        opacity: .5;
-    }
+  & .part-04-section-5 img:hover {
+    width: 410px;
+    height: 410px;
+    opacity: 0.5;
+  }
 }
 
+.section6 {
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin: 0px auto;
+  margin-top: 120px;
+  border-radius: 40px;
+  & .part-02-section-6 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    color: var(--color_03);
+  }
+  & .part-03-section-6 {
+    width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--color_03);
+    opacity: 0.6;
+    margin-top: 22px;
+  }
+}
+
+.part-04-section-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.e-mail {
+  
+  width: 438px;
+  height: 62px;
+  padding: 20px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+}
+
+.Subscribe-btn {
+  width: 180px;
+  height: 62px;
+  padding: 20px;
+  border-radius: 0 50px 50px 0;
+  background-color: var(--color_02);
+  color: var(--color_01);
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
