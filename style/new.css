@@ -8,8 +8,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "open sans", sans-serif;
+  font-family: 'open sans', serif;
 }
+
 
 .header {
   width: 1320px;
@@ -23,6 +24,7 @@
   background-repeat: no-repeat;
   margin: 50px auto;
   border-radius: 40px;
+  font-family: 'Merriweather', serif;
 }
 
 .head-text {
