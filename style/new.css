@@ -149,7 +149,7 @@
 
 .section4 {
   width: 1320px;
-  height: 600px;
+  height: 400px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -225,12 +225,11 @@
 
   & .part-04-section-5 {
     display: grid;
-    grid-template-columns: repeat(3, 420px);
-    grid-template-rows: repeat(3, 420px);
+    grid-template-columns: repeat(3, 430px);
+    grid-template-rows: repeat(3, 430px);
     align-items: center;
     justify-content: center;
     gap: 24px;
-    transition: 1s;
   }
 
   & .part-04-section-5 img {
@@ -240,9 +239,9 @@
   }
 
   & .part-04-section-5 img:hover {
-    width: 410px;
-    height: 410px;
-    opacity: 0.5;
+    width: 420px;
+    height: 420px;
+    opacity: 0.6;
   }
 }
 
@@ -305,4 +304,44 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  margin-top: 120px;
+  padding: 40px 80px ;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color_03);
+  color: var(--color_01);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+hr {
+  background-color: var(--color_01);
+  opacity: .15;
+}
+
+.part-01-footer {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  & .location {
+    width: 400px;
+  }
+}
+
+.part-02-footer {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.part-03-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
 }
