@@ -128,7 +128,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  & #text{
+  & #text {
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
@@ -136,15 +136,112 @@
 }
 
 .join-btn {
-    width: 160px;
-    height: 60px;
-    background-color: var(--color_02);
-    color: var(--color_01);
-    border: none;
-    border-radius: 10px;
+  width: 160px;
+  height: 60px;
+  background-color: var(--color_02);
+  color: var(--color_01);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.section4 {
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 120px auto;
+  & #text-01-section-4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color_02);
+  }
+  & #text-02-section-4 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--color_03);
+  }
+  & #text-03-section-4 {
     font-size: 20px;
+    font-weight: 400;
+    color: var(--color_03);
+    opacity: 60%;
+  }
+  & #text-05-section-4 {
+    font-size: 48px;
     font-weight: 700;
+    color: var(--color_02);
+    text-align: center;
+  }
+  & #text-06-section-5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color_03);
+    margin-top: 15px;
+  }
+}
+
+.middle-img-sec-4 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  outline: 5px ridge var(--color_02);
+  padding: 10px;
+}
+
+.right-img-sec-4 {
     margin-top: 48px;
 
+}
+
+.section5 {
+
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    & .part-01-section-5 {
+        font-size: 24px;
+        font-weight: 500;
+        color: var(--color_02);
+        margin-bottom: 10px;
+    }
+    & .part-02-section-5 {
+        font-size: 48px;
+        font-weight: 900;
+        color: var(--color_03); 
+        margin-bottom: 15px;
+    }
+    & .part-03-section-5 {
+        width: 70%;
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--color_03); 
+        margin-bottom: 30px;
+    }
+    & .part-04-section-5 {
+        display: grid;
+        grid-template-columns: repeat(3, 424px);
+        grid-template-rows: repeat(3, 450px);
+        gap: 24px;
+        transition: 1s;
+    }
+
+    & .part-04-section-5 img {
+        width: 404px;
+        height: 430px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+    }
+
+    & .part-04-section-5 img:hover {
+        width: 90%;
+        height: 90%;
+        opacity: .5;
+    }
 }
 
